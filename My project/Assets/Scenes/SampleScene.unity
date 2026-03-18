@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 574476373}
   - component: {fileID: 574476372}
   - component: {fileID: 574476371}
+  - component: {fileID: 574476376}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -415,6 +416,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26377db107a7a0a4c9af946d297100bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myscript
+  my_int: 15
+  my_float: 3.0788
+  my_char: 99
+  my_string: Hello World
+  my_vec3: {x: 4.6, y: 10.2, z: 13.5}
+  my_array: 01000000030000000700000006000000410000004d00000070000000
 --- !u!65 &574476372
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -508,6 +515,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &574476376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574476370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597fed9d9652d0c4b9f615283f08e292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ControlFlow
+  num1: 15
+  num2: 20
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
