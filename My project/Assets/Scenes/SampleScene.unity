@@ -411,7 +411,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574476370}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26377db107a7a0a4c9af946d297100bb, type: 3}
   m_Name: 
@@ -527,7 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 597fed9d9652d0c4b9f615283f08e292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlFlow
-  num1: 15
+  num1: 10
   num2: 20
 --- !u!1 &832575517
 GameObject:
